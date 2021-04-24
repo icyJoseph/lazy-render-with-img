@@ -29,11 +29,16 @@ button {
   cursor: pointer;
   transition: border 0.4s ease;
   border-radius: 12px;
-  transition: border-radius 0.4s ease;
+  transition: border-radius 0.4s ease, background 0.1s ease, color 0.1s ease;
 }
 
 button:hover {
   border-radius: 4px;
+}
+
+button:active {
+  background: white;
+  color: palevioletred;
 }
 
 footer {

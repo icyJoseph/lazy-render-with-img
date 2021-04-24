@@ -1,10 +1,4 @@
-# Lazy Render
-
-Perhaps an anti pattern, but this project shows how to use `loading=lazy` on an `img` element to lazy render a component.
-
-In this particular case, the lazy rendered component, triggers a call to `react-toastify`.
-
-```tsx
+import React, { useEffect, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import { LazyRender } from "native-lazy-render";
 
@@ -49,4 +43,3 @@ export default function App() {
     </>
   );
 }
-```
