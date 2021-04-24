@@ -1,6 +1,6 @@
 # Native Lazy Render
 
-> Experimental, please do not install
+> Experimental, please do not use. There's a reason why this isn't on NPM.
 
 Native in this context refers to, browser enabled.
 
