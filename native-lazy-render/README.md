@@ -6,6 +6,8 @@ Native in this context refers to, browser enabled.
 
 Since native image loading is now browser native, with great support across vendors, I thought of making a lazy render component, that takes advantage of it.
 
+This version uses React, but it can of course extended to trigger more generic actions. Rendering would just be one option of many. Although it might be unsafe, when used outsite of a framework that sanitizes strings.
+
 ## Considerations
 
 - An image is used as sentinel to know when the user scrolls nearby.
